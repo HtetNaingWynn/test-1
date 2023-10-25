@@ -9,3 +9,64 @@
 h1{
     color : var(--secondary)
 }
+
+
+.border tr, .border td {
+
+}
+
+.border tr, td {
+
+}
+
+.border tr td {
+
+}
+
+@media screen and (max-width: 540px) {
+    table {
+        display: block;
+        background-color: aqua;
+    }
+}
+
+.test {
+    border: 1px solid red;
+    width: 200px;
+    height: 400px;
+    padding: 5px;
+}
+
+
+ul li {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+ul li :nth-child(5){
+    color: red;
+}
+/* ul li {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+ul li :nth-child(2){
+    color: red;
+} */
+
+
+table tr th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even){
+    background-color: red;
+}
