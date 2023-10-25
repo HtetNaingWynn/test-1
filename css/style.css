@@ -1,0 +1,11 @@
+
+
+:root {
+    --primary: black;
+    --secondary: red;
+    --third: blue;
+}
+
+h1{
+    color : var(--secondary)
+}
